@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fec75a19-a620-4c96-9b1e-9750dcdc655b" name="Default Changelist" comment="aaa" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/ui/FrmTieuDe.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ui/FrmDia.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ui/FrmThueDia.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1vnyAFVLvihOr8RXsfj8gDVdRdF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="328" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\iuh\Nhom6\Client\src\main\java\ui" />
+      <recent name="D:\XayDungPhanMem\Nhom6\Client\src\main\java" />
+      <recent name="D:\XayDungPhanMem\Nhom6\Client\src\main\java\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dto" />
+      <recent name="page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FrmDangNhap">
+    <configuration name="FrmDangNhap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.FrmDangNhap" />
+      <module name="Client_Nhom6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrmTONG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.FrmTONG" />
+      <module name="Client_Nhom6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_JFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Login_JFrame" />
+      <module name="Client_Nhom6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Client_Nhom6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FrmDangNhap" />
+        <item itemvalue="Application.FrmTONG" />
+        <item itemvalue="Application.Login_JFrame" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="HTTP Request.rest-api#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fec75a19-a620-4c96-9b1e-9750dcdc655b" name="Default Changelist" comment="aaa" />
+      <created>1627212001766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627212001766</updated>
+      <workItem from="1627212003442" duration="487000" />
+      <workItem from="1627212509623" duration="4293000" />
+      <workItem from="1627407020419" duration="510000" />
+      <workItem from="1627496716778" duration="251000" />
+      <workItem from="1628560645255" duration="9000" />
+      <workItem from="1628563707815" duration="12637000" />
+      <workItem from="1628579819029" duration="11395000" />
+      <workItem from="1628591770376" duration="19239000" />
+      <workItem from="1628689501670" duration="13829000" />
+      <workItem from="1628728946390" duration="4751000" />
+      <workItem from="1628855241661" duration="697000" />
+      <workItem from="1628904943590" duration="1987000" />
+      <workItem from="1628922618939" duration="3242000" />
+      <workItem from="1629809719149" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Client_Nhom6$MainFrame.ic" NAME="MainFrame Coverage Results" MODIFIED="1627238496728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+  </component>
+</project>

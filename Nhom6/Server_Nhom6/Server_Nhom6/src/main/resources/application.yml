@@ -1,0 +1,37 @@
+#
+#server:
+#  port: 8988
+#
+#spring:
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/nhom6?createDatabaseIfNotExist=true
+#    username: root
+#    password: toilatoi123
+#  jpa:
+#    hibernate.ddl-auto: create-drop
+#    generate-ddl: true
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+
+
+server:
+  port: 8888
+
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=Nhom6
+    username: sa
+    password: sapassword
+  jpa:
+    hibernate.ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect

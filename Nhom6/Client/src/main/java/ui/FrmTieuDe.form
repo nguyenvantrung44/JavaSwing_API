@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FrmTieuDe">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="580" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4674729"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d10c0" layout-manager="GridLayoutManager" row-count="8" column-count="14" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="20" bottom="10" right="20"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-4674729"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="f3e6f" binding="scrPanel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4674729"/>
+            </properties>
+            <border type="bevel-raised" title="Danh sách tiêu đề">
+              <font name="Wingdings 3" size="12" style="1"/>
+              <title-color color="-14801221"/>
+              <color color="-4473925"/>
+            </border>
+            <children>
+              <component id="49d1c" class="javax.swing.JTable" binding="table">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <vspacer id="c94b0">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="bb7c2">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="f3b86" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14" style="1"/>
+              <foreground color="-16185079"/>
+              <text value="Mã tiêu đề"/>
+            </properties>
+          </component>
+          <component id="7431" class="javax.swing.JTextField" binding="txtMaTD">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="1f830" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Wingdings 3" size="14" style="1"/>
+              <foreground color="-16185079"/>
+              <text value="Tên tiêu đề"/>
+            </properties>
+          </component>
+          <component id="c1637" class="javax.swing.JTextField" binding="txtTenTD">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="e303c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Wingdings 3" size="14" style="1"/>
+              <foreground color="-16185079"/>
+              <text value="Mã loại đĩa"/>
+            </properties>
+          </component>
+          <grid id="9b3a0" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="5" bottom="10" right="5"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="13" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4674729"/>
+              <foreground color="-14801221"/>
+            </properties>
+            <border type="bevel-raised" title="Chọn chức năng">
+              <font name="Wingdings 3" size="12" style="1"/>
+              <title-color color="-14801221"/>
+            </border>
+            <children>
+              <component id="91414" class="javax.swing.JButton" binding="btnThemTD">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Wingdings 3" size="14" style="1"/>
+                  <foreground color="-16185079"/>
+                  <text value="Thêm tiêu đề"/>
+                </properties>
+              </component>
+              <component id="9c324" class="javax.swing.JButton" binding="btnXoaTD">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Wingdings 3" size="14" style="1"/>
+                  <foreground color="-16185079"/>
+                  <text value="Xóa tiêu đề"/>
+                </properties>
+              </component>
+              <component id="490a5" class="javax.swing.JButton" binding="btnXoaRong">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Wingdings 3" size="14" style="1"/>
+                  <foreground color="-16185079"/>
+                  <text value="Xóa rỗng"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="84ad" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="13" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6643315"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e0ccb" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-14801221"/>
+                  <font name="Yu Gothic UI Semibold" size="24" style="1"/>
+                  <foreground color="-14801221"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="QUẢN LÝ TIÊU ĐỀ"/>
+                  <verticalAlignment value="3"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="d08c7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Wingdings 3" size="14" style="1"/>
+              <foreground color="-16185079"/>
+              <text value="Tóm tắt"/>
+            </properties>
+          </component>
+          <scrollpane id="2b527" binding="scrarea">
+            <constraints>
+              <grid row="1" column="7" row-span="3" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b3bd0" class="javax.swing.JTextArea" binding="area">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="e8b07" class="javax.swing.JComboBox" binding="cbMaLoaiDia">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

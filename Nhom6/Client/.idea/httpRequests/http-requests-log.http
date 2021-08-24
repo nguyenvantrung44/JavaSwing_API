@@ -1,0 +1,14 @@
+GET http://localhost:8888/api/v1/nhom6/tieude
+Accept: application/json
+
+<> 2021-07-28T212436.200.json
+
+###
+
+GET http://localhost:8888/api/v1/nhom6/tieude
+Accept: application/json
+
+<> 2021-07-28T212429.200.json
+
+###
+

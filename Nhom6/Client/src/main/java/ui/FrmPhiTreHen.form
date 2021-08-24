@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FrmPhiTreHen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="10" bottom="5" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="783" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4674729"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="258eb" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4674729"/>
+        </properties>
+        <border type="line" title="Thông tin khách hàng">
+          <title-color color="-14801221"/>
+          <color color="-14801221"/>
+        </border>
+        <children>
+          <component id="dd038" class="javax.swing.JTextField" binding="txtMaKH">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="79b27" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tên khách hàng"/>
+            </properties>
+          </component>
+          <component id="9a491" class="javax.swing.JTextField" binding="txtTenKH">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="8ba8e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tổng tiền nợ phí trễ hẹn"/>
+            </properties>
+          </component>
+          <component id="9d079" class="javax.swing.JTextField" binding="txtTongPhiTre">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="9b1ce" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Mã khách hàng"/>
+            </properties>
+          </component>
+          <vspacer id="d9491">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <vspacer id="36781">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="e5eed" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4674729"/>
+        </properties>
+        <border type="line" title="Danh sách phí trễ hẹn">
+          <title-color color="-14801221"/>
+          <color color="-14801221"/>
+        </border>
+        <children>
+          <scrollpane id="24848" binding="scrPanel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a1ce1" class="javax.swing.JTable" binding="table">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="dfe03" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nhập mã khách hàng"/>
+            </properties>
+          </component>
+          <component id="b4ade" class="javax.swing.JTextField" binding="txtTim">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7a30e" class="javax.swing.JButton" binding="btnTim">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Tìm"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="24487" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="10" bottom="5" right="10"/>
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4674729"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="c62bb" binding="scrPanelCT">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4674729"/>
+            </properties>
+            <border type="line" title="Chi tiết phí trễ hẹn">
+              <title-color color="-14801221"/>
+              <color color="-14801221"/>
+            </border>
+            <children>
+              <component id="a70f5" class="javax.swing.JTable" binding="tableCT">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="6ce0e" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4674729"/>
+        </properties>
+        <border type="line" title="Chức năng">
+          <title-color color="-14801221"/>
+          <color color="-14801221"/>
+        </border>
+        <children>
+          <component id="8b160" class="javax.swing.JButton" binding="btnThanhToanAll">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Thanh toán tất cả"/>
+            </properties>
+          </component>
+          <component id="3137d" class="javax.swing.JButton" binding="btnThanhToanPhiTreHen">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Thanh toán "/>
+            </properties>
+          </component>
+          <component id="2bb38" class="javax.swing.JButton" binding="btnHuy">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Hủy phí trễ hẹn"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="3d4d8">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="6ef08" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6643315"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="52d9e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Wingdings 3" size="24" style="1"/>
+              <foreground color="-14801221"/>
+              <text value="QUẢN LÝ PHÍ TRỄ HẸN"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="d99b3">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,21 @@
+{
+  "paginationMeta": {
+    "totalCount": 1,
+    "pageSize": 10,
+    "totalPage": 1,
+    "pageNumber": 1,
+    "isLast": true,
+    "isFirst": true
+  },
+  "tieuDeDtos": [
+    {
+      "maTieuDe": 1,
+      "tenTieuDe": "ahihi",
+      "tomTat": "Aihii",
+      "loaiDia": null,
+      "dsDia": [],
+      "dsChiTietPhieuDatTruoc": [],
+      "active": true
+    }
+  ]
+}
